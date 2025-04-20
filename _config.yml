@@ -9,17 +9,17 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Africa/Johannesburg
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Paul Reitz # the main title
 
-tagline: My personal blog # it will display as the subtitle
+tagline: Sharing my ideas and passion for stats, ML, finance and tech. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Where I share some of my thoughts.
+  Insights on data science, tech, AI and building things that matter. Written by Paul Reitz.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,18 +28,18 @@ url: "https://paul-reitz.github.io"
 github:
   username: paul-reitz # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+LinkedIn:
+  username: paul-reitz-93aa07134 # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Paul Reitz
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://github.com/paul-reitz # change to your Twitter homepage
+    - https://www.linkedin.com/in/paul-reitz-93aa07134/ # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -107,28 +107,58 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+
+#########
+# comments:
+#   # Global switch for the post-comment system. Keeping it empty means disabled.
+#   provider: giscus
+#   # The provider options are as follows:
+#   disqus:
+#     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+#   # utterances settings › https://utteranc.es/
+#   utterances:
+#     repo: # <gh-username>/<repo>
+#     issue_term: # < url | pathname | title | ...>
+#   # Giscus options › https://giscus.app
+#   giscus:
+#     repo: # <gh-username>/<repo>
+#     repo_id:
+#     category:
+#     category_id:
+#     mapping: # optional, default to 'pathname'
+#     strict: # optional, default to '0'
+#     input_position: # optional, default to 'bottom'
+#     lang: # optional, default to the value of `site.lang`
+#     reactions_enabled: # optional, default to the value of `1`
+
+#############
+
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus
+
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname: # not used
+
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: # not used
+    issue_term: # not used
+
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: paul-reitz/paul-reitz.github.io
+    repo_id: R_kgDOOcxSdw
+    category: Announcements
+    category_id: DIC_kwDOOcxSd84CpSdf
+    mapping: pathname
+    strict: 1
+    input_position: top
+    lang: en
+    reactions_enabled: 1
 
+    
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
