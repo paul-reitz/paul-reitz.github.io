@@ -1,41 +1,27 @@
-# Chirpy Starter
+# 📝 Paul Reitz — Personal Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Welcome to my digital space — a personal blog built with [Jekyll](https://jekyllrb.com/) and the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme, hosted on GitHub Pages.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+I use this blog to think out loud, share insights, and document ideas around data science, technology, and building systems with impact.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## 🌐 Live Site
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+👉 [https://paul-reitz.github.io](https://paul-reitz.github.io)
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## 🧰 Built With
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+- [Jekyll](https://jekyllrb.com/)
+- [Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
+- [GitHub Pages](https://pages.github.com)
+- [Giscus](https://giscus.app) for comments
 
-## Usage
+## 📬 Feedback
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+Feel free to [open an issue](https://github.com/paul-reitz/paul-reitz.github.io/issues) or connect via [GitHub Discussions](https://github.com/paul-reitz/paul-reitz.github.io/discussions).
 
-## Contributing
+---
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
+© Paul Reitz • All opinions are my own.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
